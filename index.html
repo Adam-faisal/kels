@@ -1,23 +1,62 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>KELS – Coming Soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KELS Labs – Coming Soon</title>
   <style>
     body {
-      background: #111;
-      color: #eee;
-      font-family: sans-serif;
-      text-align: center;
-      padding-top: 100px;
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #e6eff5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #1f3a5f;
     }
-    h1 { font-size: 50px; }
-    p { font-size: 20px; color: #bbb; }
+    .container {
+      text-align: center;
+      padding: 40px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 90%;
+      animation: fadeIn 1.2s ease-in;
+    }
+    .logo {
+      max-width: 120px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #005b8f;
+    }
+    p {
+      font-size: 1.1em;
+      color: #4b6078;
+      margin-bottom: 20px;
+    }
+    .footer {
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 30px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
-  <h1>🚧 KELS is Coming Soon</h1>
-  <p>We're working hard to launch. Stay tuned!</p>
+  <div class="container">
+    <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="KELS Labs Logo" class="logo" />
+    <h1>Coming Soon</h1>
+    <p>Our hospital laboratory services will be online shortly. We are preparing a modern, secure, and patient-centered platform.</p>
+    <p><strong>KELS Medical Labs</strong><br />Advanced Diagnostics. Trusted Care.</p>
+    <div class="footer">© 2025 KELS Labs – All rights reserved</div>
+  </div>
 </body>
 </html>
